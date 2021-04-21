@@ -13,5 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run: gcc -v
     - name: gcc
       run: gcc -o hello_world hello_world.c
